@@ -24,12 +24,28 @@ export default function Home() {
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text} />
                ))}
             </Box>
+            <Box component={'ul'} p={'0.8rem'} marginBottom={"30px"} style={{ opacity: "0.4" }}>
+               <EmojiBullet
+                  text={
+                     <>
+                        <i class="fa-brands fa-html5 fa-2xl"></i>
+                        <i class="fa-brands fa-css3-alt fa-2xl"></i>
+                        <i class="fa-brands fa-square-js fa-2xl"></i>
+                        <i class="fa-brands fa-bootstrap fa-2xl"></i>
+                        <i class="fa-brands fa-python fa-2xl"></i>
+                        <i class="fa-brands fa-wordpress fa-2xl"></i>
+                        <i class="fa-brands fa-react fa-2xl"></i>
+                        <i class="fa-brands fa-node fa-2xl"></i>
+                     </>
+                  }>
+               </EmojiBullet>
+            </Box>
             <Box display={'flex'} gap={'1.5rem'} justifyContent={'center'} fontSize={{ xs: '2rem', md: '2.5rem' }}>
                {info.socials.map((social, index) => (
                   <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />
                ))}
             </Box>
          </Box>
-      </Box>
+      </Box >
    )
 }

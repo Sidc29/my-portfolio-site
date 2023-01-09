@@ -21,21 +21,21 @@ export const info = {
     baseColor: colors[0],
     miniBio: [
         {
-            emoji: '🤓',
+            emoji: <i class="fa-solid fa-laptop-code"></i>,
             text: 'tech geek'
         },
         {
-            emoji: '🌎',
+            emoji: <i class="fa-solid fa-earth-africa"></i>,
             text: 'based in Belagavi, Karnataka'
         },
         {
-            emoji: "🎓",
+            emoji: <i class="fa-solid fa-user-graduate"></i>,
             text: "graduated in 2022"
         },
         {
-            emoji: "📧",
+            emoji: <i class="fa-solid fa-envelope"></i>,
             text: "sidc29@protonmail.com"
-        }
+        },
     ],
     socials: [
         {
@@ -76,7 +76,7 @@ export const info = {
         },
         {
             label: 'best final year project award by the institute',
-            emoji: <i class="fa fa-certificate"></i>
+            emoji: <i class="fa-solid fa-award"></i>
         },
     ],
     hobbies: [

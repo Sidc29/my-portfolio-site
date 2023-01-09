@@ -49,6 +49,7 @@ export default function BaseLayout() {
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                   py={'1.5rem'} sx={{ opacity: 0.7 }} width={'100%'}>
                   <p>Made with &hearts; by Siddharth.</p>
+                  <p>Tech used: <i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-square-js"></i><i class="fa-brands fa-square-font-awesome"></i><i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i></p>
                   <p>Special thanks to <a href={'https://paytonpierce.dev'}>Payton Pierce.</a></p>
                   <p>&copy; {year}</p>
                </Box>
