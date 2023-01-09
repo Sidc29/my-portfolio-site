@@ -11,7 +11,7 @@ export default function Home() {
 
    return (
       <Box component={'main'} display={'flex'} flexDirection={{ xs: 'column', md: 'row' }} alignItems={'center'}
-         justifyContent={'center'} minHeight={'calc(100vh - 175px)'}>
+         justifyContent={'center'} minHeight={'calc(100vh - 175px)'} marginTop={"40px"}>
          <Box className={classNames(Style.avatar, Style.shadowed)} alt={'image of developer'} style={{ background: info.gradient }} component={'img'} src={me} width={{ xs: '35vh', md: '40vh' }}
             height={{ xs: '35vh', md: '40vh' }}
             borderRadius={'50%'} p={'0.4rem'} mb={{ xs: '2rem', sm: '1rem' }} mr={{ xs: 0, md: '2rem' }} />
