@@ -7,7 +7,6 @@ import mock5 from "../img/mock5.png"
 import mock6 from "../img/mock6.png"
 import mock7 from "../img/mock7.png"
 import mock8 from "../img/mock8.png"
-import mock9 from "../img/mock9.png"
 
 export let colors = ["rgb(230, 194, 137)", "rgb(233, 180, 241)"];
 
@@ -170,12 +169,6 @@ export const info = {
             live: "https://sidc29.github.io/drum-kit-JS/",
             source: "https://github.com/Sidc29/drum-kit-JS",
             image: mock8
-        },
-        {
-            title: "Simple Live Clock (JS)",
-            live: "https://sidc29.github.io/Live-clock-JS/",
-            source: "https://github.com/Sidc29/Live-clock-JS",
-            image: mock9
         },
     ]
 }
