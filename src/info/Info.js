@@ -61,48 +61,31 @@ export const info = {
         exposedTo: ['git', 'github', 'postman', 'ms office', 'studio 3t']
     }
     ,
-    certifications: [
-        {
-            label: 'certified in cloud computing',
-            emoji: <i class="fa fa-certificate"></i>
-        },
-        {
-            label: 'cambridge linguistic business english certified',
-            emoji: <i class="fa fa-certificate"></i>
-        },
-        {
-            label: 'protecting business innovations via copyright',
-            emoji: <i class="fa fa-certificate"></i>
-        },
-        {
-            label: 'best final year project award by the institute',
-            emoji: <i class="fa-solid fa-award"></i>
-        },
-    ],
+
     hobbies: [
         {
             label: 'coding',
-            emoji: '👨‍💻'
+            emoji: <i class="fa-solid fa-code"></i>
         },
         {
             label: 'trading',
-            emoji: '💰'
+            emoji: <i class="fa-solid fa-chart-line"></i>
         },
         {
             label: 'geopolitcs',
-            emoji: '🌍'
+            emoji: <i class="fa-solid fa-globe"></i>
         },
         {
             label: 'movies',
-            emoji: '🎬'
+            emoji: <i class="fa-solid fa-film"></i>
         },
         {
             label: 'sports',
-            emoji: '⚽️'
+            emoji: <i class="fa-solid fa-table-tennis-paddle-ball"></i>
         },
         {
             label: 'problem solving',
-            emoji: '🧩'
+            emoji: <i class="fa-solid fa-puzzle-piece"></i>
         },
     ],
     languages: [
@@ -129,6 +112,13 @@ export const info = {
         {
             label: 'spanish',
             emoji: <i class="fa fa-language" aria-hidden="true"></i>
+        },
+
+    ],
+    resume: [
+        {
+            label: 'Download my Résumé',
+            emoji: <i class="fa-solid fa-download"></i>
         },
 
     ],

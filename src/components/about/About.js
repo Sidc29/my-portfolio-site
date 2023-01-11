@@ -5,7 +5,12 @@ import { Box } from "@mui/material";
 import { info } from "../../info/Info";
 
 
+
+
 export default function About() {
+
+    const Resume = "https://drive.google.com/file/d/15pLGwVYoSTkHkig4Gu7uauP3kuQLEoI5/view?usp=share_link"
+
     const firstName = info.firstName.toLowerCase()
 
     function aboutMeText() {
@@ -29,23 +34,9 @@ export default function About() {
             <ul className={Style.skills}>
                 {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
-            <p style={{ color: info.baseColor }}> related tools</p>
+            <p style={{ color: info.baseColor }}>tools</p>
             <ul className={Style.skills}>
                 {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
-            </ul>
-        </>;
-    }
-
-    function certificationsText() {
-        return <>
-            <p><span style={{ color: info.baseColor }}> $</span> cd
-                certificates</p>
-            <p><span style={{ color: info.baseColor }}>certificates <span
-                className={Style.green}>(main)</span> $</span> ls</p>
-            <ul>
-                {info.certifications.map((certificate, index) => (
-                    <li key={index}><Box component={'span'} mr={'1rem'}>{certificate.emoji}</Box>{certificate.label}</li>
-                ))}
             </ul>
         </>;
     }
@@ -77,14 +68,28 @@ export default function About() {
             </ul>
         </>;
     }
+    function myResume() {
+        return <>
+            <p><span style={{ color: info.baseColor }}> $</span> cd
+                resume</p>
+            <p><span style={{ color: info.baseColor }}>resume <span
+                className={Style.green}>(main)</span> $</span> ls</p>
+            <ul>
+                {info.resume.map((resume, index) => (
+                    // eslint-disable-next-line jsx-a11y/anchor-is-valid
+                    <a style={{ fontWeight: "normal" }} href={Resume} target={'_blank'} rel="noreferrer"><li key={index}><Box component={'span'} mr={'1rem'}>{resume.emoji}</Box>{resume.label}</li></a>
+                ))}
+            </ul>
+        </>;
+    }
 
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
             <Terminal text={aboutMeText()} />
             <Terminal text={skillsText()} />
-            <Terminal text={certificationsText()} />
             <Terminal text={interestsText()} />
             <Terminal text={languageText()} />
+            <Terminal text={myResume()} />
         </Box>
     )
 }
