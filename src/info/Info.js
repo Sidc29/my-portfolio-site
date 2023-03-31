@@ -169,7 +169,7 @@ export const info = {
       image: mock12,
     },
     {
-      title: "Store RESTful API with Sorting, Filtering, Pagination, Regex",
+      title: "Store RESTful API with Sorting, Filtering, Pagination",
       live: "https://store-rest-api-qo9n.onrender.com/",
       source: "https://github.com/Sidc29/Store-Restful-API",
       image: mock11,
@@ -181,38 +181,38 @@ export const info = {
       image: mock10,
     },
     {
-      title: "User Authentication using Passport.js",
+      title: "User Authentication using Passport.js (Node.js)",
       live: "https://anosec-passport-js-authentication.onrender.com/",
       source:
         "https://github.com/Sidc29/AnoSec---Authentication-using-Passport.js",
       image: mock9,
     },
     {
-      title: "Web3 React DApp",
+      title: "Web3 Decentralised Note Keeping App (React DApp)",
       live: "https://riotp-viaaa-aaaan-qcx4a-cai.ic0.app/",
       source: "https://github.com/Sidc29/notekeeper-DApp",
       image: mock1,
     },
     {
-      title: "Shiba Image Generator",
+      title: "Shiba Image Generator (Node.js)",
       live: "https://shiba-image-generator.onrender.com/",
       source: "https://github.com/Sidc29/shiba-image-generator-nodejs",
       image: mock2,
     },
     {
-      title: "Strong Password Generator",
+      title: "Strong Password Generator (Node.js)",
       live: "https://password-generator-5uaw.onrender.com/",
       source: "https://github.com/Sidc29/password-generator-nodejs-ejs",
       image: mock3,
     },
     {
-      title: "ToDo List App (React)",
+      title: "ToDo List App (React.js)",
       live: "https://advanced-to-do-app.vercel.app/",
       source: "https://github.com/Sidc29/advanced-to-do-app-react",
       image: mock4,
     },
     {
-      title: "ToDo List App (Node)",
+      title: "ToDo List App (Node.js)",
       live: "https://advanced-to-do-app.onrender.com/",
       source: "https://github.com/Sidc29/advanced-todo-app-nodejs-ejs",
       image: mock5,
