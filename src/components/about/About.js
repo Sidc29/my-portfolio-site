@@ -3,8 +3,11 @@ import Style from "./About.module.scss";
 import Terminal from "./Terminal";
 import { Box } from "@mui/material";
 import { info } from "../../info/Info";
+import { useTitle } from "../../hooks/useTitle";
 
-export default function About() {
+export default function About({ title }) {
+  useTitle(title);
+
   const Resume =
     "https://drive.google.com/file/d/1kJGpwZdFRr-dsMTrfiJO_x2Ysh1G5X0g/view?usp=share_link";
 

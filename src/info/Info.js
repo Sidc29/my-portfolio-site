@@ -28,7 +28,7 @@ export const info = {
         WebkitTextFillColor: "transparent",
       }}
     >
-      <i class="fa-solid fa-house-user fa-sm"></i>
+      <i className="fa-solid fa-house-user fa-sm"></i>
     </span>
   ),
   position: "a Full Stack Web Developer",
@@ -37,19 +37,19 @@ export const info = {
   baseColor: colors[0],
   miniBio: [
     {
-      emoji: <i class="fa-solid fa-laptop-code"></i>,
+      emoji: <i className="fa-solid fa-laptop-code"></i>,
       text: "tech geek",
     },
     {
-      emoji: <i class="fa-solid fa-earth-africa"></i>,
+      emoji: <i className="fa-solid fa-earth-africa"></i>,
       text: "based in Belagavi, Karnataka",
     },
     {
-      emoji: <i class="fa-solid fa-user-graduate"></i>,
+      emoji: <i className="fa-solid fa-user-graduate"></i>,
       text: "graduated in 2022",
     },
     {
-      emoji: <i class="fa-solid fa-envelope"></i>,
+      emoji: <i className="fa-solid fa-envelope"></i>,
       text: "sidc29@protonmail.com",
     },
   ],
@@ -95,59 +95,59 @@ export const info = {
   hobbies: [
     {
       label: "coding",
-      emoji: <i class="fa-solid fa-code"></i>,
+      emoji: <i className="fa-solid fa-code"></i>,
     },
     {
       label: "trading",
-      emoji: <i class="fa-solid fa-chart-line"></i>,
+      emoji: <i className="fa-solid fa-chart-line"></i>,
     },
     {
       label: "geopolitcs",
-      emoji: <i class="fa-solid fa-globe"></i>,
+      emoji: <i className="fa-solid fa-globe"></i>,
     },
     {
       label: "movies",
-      emoji: <i class="fa-solid fa-film"></i>,
+      emoji: <i className="fa-solid fa-film"></i>,
     },
     {
       label: "sports",
-      emoji: <i class="fa-solid fa-table-tennis-paddle-ball"></i>,
+      emoji: <i className="fa-solid fa-table-tennis-paddle-ball"></i>,
     },
     {
       label: "problem solving",
-      emoji: <i class="fa-solid fa-puzzle-piece"></i>,
+      emoji: <i className="fa-solid fa-puzzle-piece"></i>,
     },
   ],
   languages: [
     {
       label: "english",
-      emoji: <i class="fa fa-language" aria-hidden="true"></i>,
+      emoji: <i className="fa fa-language" aria-hidden="true"></i>,
     },
     {
       label: "hindi",
-      emoji: <i class="fa fa-language" aria-hidden="true"></i>,
+      emoji: <i className="fa fa-language" aria-hidden="true"></i>,
     },
     {
       label: "marathi",
-      emoji: <i class="fa fa-language" aria-hidden="true"></i>,
+      emoji: <i className="fa fa-language" aria-hidden="true"></i>,
     },
     {
       label: "kannada",
-      emoji: <i class="fa fa-language" aria-hidden="true"></i>,
+      emoji: <i className="fa fa-language" aria-hidden="true"></i>,
     },
     {
       label: "pattegar",
-      emoji: <i class="fa fa-language" aria-hidden="true"></i>,
+      emoji: <i className="fa fa-language" aria-hidden="true"></i>,
     },
     {
       label: "spanish",
-      emoji: <i class="fa fa-language" aria-hidden="true"></i>,
+      emoji: <i className="fa fa-language" aria-hidden="true"></i>,
     },
   ],
   resume: [
     {
       label: "download my résumé",
-      emoji: <i class="fa-solid fa-download"></i>,
+      emoji: <i className="fa-solid fa-download"></i>,
     },
   ],
   portfolio: [
