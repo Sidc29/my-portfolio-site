@@ -13,6 +13,7 @@ import mock11 from "../img/mock11.png";
 import mock12 from "../img/mock12.png";
 import mock13 from "../img/mock13.png";
 import mock14 from "../img/mock14.png";
+import mock15 from "../img/mock15.png";
 
 export let colors = ["rgb(230, 194, 137)", "rgb(233, 180, 241)"];
 
@@ -161,6 +162,12 @@ export const info = {
       live: "https://dynamic-charts.vercel.app/",
       source: "https://github.com/Sidc29/Dynamic-Charts-React",
       image: mock13,
+    },
+    {
+      title: "Catalog Viewer for a Collection of Images (React.js)",
+      live: "https://catalog-viewer-two.vercel.app/",
+      source: "https://github.com/Sidc29/catalog-viewer-react",
+      image: mock15,
     },
     {
       title: "TaskMan - A Complete Task Manager (with Dark Mode)",
