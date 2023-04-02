@@ -146,7 +146,7 @@ export const info = {
   ],
   resume: [
     {
-      label: "my Résumé",
+      label: "download my résumé",
       emoji: <i class="fa-solid fa-download"></i>,
     },
   ],
