@@ -130,8 +130,9 @@ export default function About({ title }) {
               href={Resume}
               target={"_blank"}
               rel="noreferrer"
+              key={index}
             >
-              <li key={index}>
+              <li>
                 <Box component={"span"} mr={"1rem"}>
                   {resume.emoji}
                 </Box>

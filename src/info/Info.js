@@ -37,20 +37,31 @@ export const info = {
   baseColor: colors[0],
   miniBio: [
     {
-      emoji: <i className="fa-solid fa-laptop-code"></i>,
+      emoji: (
+        <i className="fa-solid fa-laptop-code" style={{ padding: "5px" }}></i>
+      ),
       text: "tech geek",
     },
     {
-      emoji: <i className="fa-solid fa-earth-africa"></i>,
-      text: "based in Belagavi, Karnataka",
+      emoji: (
+        <i className="fa-solid fa-earth-africa" style={{ padding: "8px" }}></i>
+      ),
+      text: "based in belagavi, karnataka",
     },
     {
-      emoji: <i className="fa-solid fa-user-graduate"></i>,
+      emoji: (
+        <i
+          className="fa-solid fa-user-graduate"
+          style={{ padding: "9.5px" }}
+        ></i>
+      ),
       text: "graduated in 2022",
     },
     {
-      emoji: <i className="fa-solid fa-envelope"></i>,
-      text: "sidc29@protonmail.com",
+      emoji: (
+        <i className="fa-solid fa-envelope" style={{ padding: "8px" }}></i>
+      ),
+      text: "sidc29[at]protonmail.com",
     },
   ],
   socials: [

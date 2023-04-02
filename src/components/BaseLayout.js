@@ -10,11 +10,10 @@ import { Box, Grid } from "@mui/material";
 export default function BaseLayout() {
   const year = new Date().getFullYear();
 
-  let [darkMode, setDarkMode] = useState(false);
+  let [darkMode, setDarkMode] = useState(true);
 
   function handleToggleDarkMode() {
     let oppositeOfCurrentDarkMode = !darkMode;
-    console.log(oppositeOfCurrentDarkMode);
     localStorage.setItem("darkMode", `${oppositeOfCurrentDarkMode}`);
     setDarkMode(oppositeOfCurrentDarkMode);
   }
