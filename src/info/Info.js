@@ -14,6 +14,7 @@ import mock12 from "../img/mock12.png";
 import mock13 from "../img/mock13.png";
 import mock14 from "../img/mock14.png";
 import mock15 from "../img/mock15.png";
+import mock16 from "../img/mock16.png";
 
 export let colors = ["rgb(230, 194, 137)", "rgb(233, 180, 241)"];
 
@@ -162,6 +163,12 @@ export const info = {
     },
   ],
   portfolio: [
+    {
+      title: "ShopMan - Shopping Cart using Context API and UseReducer",
+      live: "https://shopman.vercel.app/",
+      source: "https://github.com/Sidc29/shopman-shopping-cart",
+      image: mock16,
+    },
     {
       title: "MovieMan - Browse Movies (MERN Stack)",
       live: "https://movieman.vercel.app/",
